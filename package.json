@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sergiokingone.github.io/forkify/",
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe app",
@@ -6,7 +7,7 @@
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d forkify-sergio",
+    "deploy": "gh-pages -d forkify",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Sergio Robayo",
